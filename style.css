@@ -1,0 +1,206 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+   background-color: #F5FCFF;
+}
+nav
+{ 
+
+    position: relative;
+}
+.navbar
+{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.logoimg
+{
+width: 13rem;
+height:13rem;
+
+}
+.navmenu
+{
+    display: flex;
+    flex-direction:column;
+    
+}
+ul li
+{
+    display:inline-block;
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.84px;
+text-transform: uppercase;
+padding: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #292929;
+    transition: 0.3s;
+}
+ul li a:hover{
+color: #5EC6B8;
+text-decoration:underline;
+}
+.content
+{
+    display: flex;
+    height: 100vh;
+  justify-content:space-evenly;
+}
+.heropic
+{
+    width: 14em;
+    height: auto;
+    
+}
+button.register
+{
+    
+    width: 147px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #5EC6B8;
+    background: #6EDACB;
+    margin-top: 28px;
+    padding: 2;
+
+}
+.contentBx button
+{
+    padding-top:12px;
+}
+.register a
+{
+    color: #292929;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contentBx h1,p
+{
+    padding-top: 2em;
+}
+
+.imgspace img
+{
+width: 13rem;
+height: auto;
+}
+.textspace h2{
+    padding:12px;
+}
+.about
+{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.courses
+{
+    height: 100vh;
+    display: flex;
+    flex-direction:row-reverse;
+  }
+.about
+{
+   height: 100vh;
+    display: flex;
+   flex-direction:row;
+ 
+    
+}
+.courses
+{
+   height: 100vh;
+    display: flex;
+   flex-direction:row-reverse;
+ 
+    
+}
+.blog
+{
+   height: 100vh;
+    display: flex;
+   flex-direction:row;
+ 
+    
+}
+.internship
+{
+    
+   height: 100vh;
+   display: flex;
+  flex-direction:row-reverse;
+
+}
+
+
+/* code for toggle */
+.light-mode
+{
+    color:black;
+    background-color: white;
+}
+.dark-mode
+{
+    color: white;
+    background-color: black;
+}
+h2{
+    text-align: center;
+}
+.contact
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+    background-color: black;
+    color: white;
+}
+.contact p
+{
+    margin: 23px;
+}
+.top
+{
+    
+
+    position: fixed;
+  
+    bottom: 20px;
+    right: 20px;
+
+  
+}
